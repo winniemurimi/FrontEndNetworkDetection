@@ -1,0 +1,94 @@
+/* src/css/NIDS.css */
+
+.nids-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px; 
+  margin-top: 70px; 
+  width: 100%; 
+  max-width: 900px; 
+  margin-left: auto; 
+  margin-right: auto;
+  background-color: #ffffff; 
+  border-radius: 12px; 
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); 
+}
+
+.nids-container h1 {
+  font-size: 28px;
+  margin-bottom: 20px; 
+  color: #333; 
+}
+
+.nids-form {
+  width: 100%; 
+}
+
+.nids-textarea {
+  width: 100%; 
+  padding: 15px; 
+  border: 1px solid #ced4da; 
+  border-radius: 8px; 
+  resize: vertical; 
+  font-size: 16px; 
+  margin-bottom: 15px; 
+  transition: border 0.3s; 
+}
+
+.nids-textarea:focus {
+  border-color: #007bff; 
+  outline: none; 
+}
+
+.button-container {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px; /
+}
+
+.nids-button {
+  padding: 10px 15px; 
+  font-size: 16px; 
+  cursor: pointer; 
+  border: none; 
+  background-color: #007bff; 
+  color: white; 
+  border-radius: 5px; 
+  transition: background-color 0.3s; 
+}
+
+.nids-button:hover {
+  background-color: #0056b3; 
+}
+
+.error-message {
+  color: red; 
+  margin-top: 15px; 
+}
+
+.predictions-container {
+  margin-top: 20px; 
+  padding: 15px; 
+  background-color: #f8f9fa; 
+  border-radius: 8px; 
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); 
+  width: 100%; 
+}
+
+.predictions-container h2 {
+  margin: 0 0 10px; 
+  font-size: 20px; 
+  color: #333;
+}
+
+.predictions-container ul {
+  padding: 0; 
+  margin: 0; 
+  list-style-type: none; 
+}
+
+.predictions-container li {
+  color: #007bff; 
+  font-weight: bold; 
+}
