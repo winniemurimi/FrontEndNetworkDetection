@@ -18,6 +18,8 @@ const App: React.FC = () => {
     if (storedToken) setToken(storedToken);
     if (storedUserId) setUserId(storedUserId);
   }, []);
+  
+  console.log(userId);
 
   const handleLogin = (sessionToken: string, userId: string) => {
     setToken(sessionToken);
