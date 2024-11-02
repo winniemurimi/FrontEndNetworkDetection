@@ -1,5 +1,5 @@
 // src/api/api.ts
-const BASE_URL = "http://127.0.0.1:5000/api";
+const BASE_URL = "back-end-flask-network-detection-b3v311sum.vercel.app";
 
 export const login = async (username: string, password: string) => {
   const response = await fetch(`${BASE_URL}/auth/login`, {

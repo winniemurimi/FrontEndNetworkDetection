@@ -13,7 +13,7 @@ const CreateUser: React.FC = () => {
     setError("");
 
     try {
-      const response = await fetch("http://localhost:5000/api/auth/register", {
+      const response = await fetch("back-end-flask-network-detection-b3v311sum.vercel.app/api/auth/register", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
